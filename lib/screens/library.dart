@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projectflutter_musiccoiceapps/constants.dart';
-import 'package:projectflutter_musiccoiceapps/screens/nowplaying.dart';
+import 'package:projectflutter_musiccoiceapps/screens/nowplaying2.dart';
 import 'package:projectflutter_musiccoiceapps/screens/search.dart';
 
 class Library extends StatelessWidget {
@@ -168,7 +168,7 @@ class Library extends StatelessWidget {
                   onTap: (){
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => NowPlaying()),
+                      MaterialPageRoute(builder: (context) => NowPlaying2()),
                     );
                   },
                 ),

@@ -1,6 +1,10 @@
 name: projectflutter_musiccoiceapps
 description: A new Flutter project.
 
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -14,18 +18,20 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.12.0+2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^1.0.2
   flutter_svg: ^0.22.0
   wave_progress_bars: ^0.1.0
   material_floating_search_bar: ^0.1.7
+  audioplayers: 
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +77,10 @@ flutter:
    - assets/icons/previous.svg
    - assets/icons/search.png
    - assets/icons/wave.svg
+
+   - assets/background.png
+   - assets/welcome.png
+   - assets/welcome2.jpg
 
   #  - images/a_dot_ham.jpeg
 
